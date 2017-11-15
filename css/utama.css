@@ -92,6 +92,7 @@ body {
     border-bottom: 0.4vw solid #E91E63;
     border-right: 1vw solid transparent;
     color: rgb(107, 103, 103);
+    width: 40%;
 }
 
 .card .border-green {
@@ -99,6 +100,7 @@ body {
     border-bottom: 0.4vw solid #009688;
     border-right: 1vw solid transparent;
     color: rgb(107, 103, 103);
+    width: 40%;
 }
 
 .card .border-orange {
@@ -106,6 +108,7 @@ body {
     border-bottom: 0.4vw solid #FF9800;
     border-right: 1vw solid transparent;
     color: rgb(107, 103, 103);
+    width: 40%;
 }
 
 .profile {
@@ -228,6 +231,47 @@ p a:link, p a:visited, p a:hover, p a:active {
 
 .gallery-item:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 .row::after {

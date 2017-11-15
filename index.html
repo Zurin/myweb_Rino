@@ -12,10 +12,8 @@
     <div class="navbar">
         <ul>
             <li class="title"><i class="fa fa-user"></i> Curriculum Vitae</li>
-            <li class="right"><a href="#" onClick="getLocation(); return false;"><i class="fa fa-map-marker"></i> Get Lokasi</a></li>
-            <li class="right"><a href="galeri.html"><i class="fa fa-image"></i> Galeri</a></li>
-            <li class="right"><a href="portofolio.html"><i class="fa fa-file-code-o"></i> Portofolio</a></li>
-            <li class="right"><a class="active" href="index.html"><i class="fa fa-home"></i> Beranda</a></li>
+            <li class="right"><a href="myapp.php"><i class="fa fa-file-code-o"></i> My App</a></li>
+            <li class="right"><a class="active" href="index.html"><i class="fa fa-home"></i> Home</a></li>
         </ul>
     </div>
     <div class="main">
@@ -147,7 +145,7 @@
         </div>
         <div class="card">
             <div class="row">
-                    <h3 class="border-green"><i class="fa fa-map"></i> Web</h3>
+                    <h3 class="border-green"><i class="fa fa-map"></i> Portofolio Web</h3>
                     <div class="kol-4">
                         <div class="profile">
                         <img src="img/tutoriex.png" align="center">
@@ -192,7 +190,7 @@
         </div>
         <div class="card">
                 <div class="row">
-                        <h3 class="border-orange"><i class="fa fa-desktop"></i> Desktop</h3>
+                        <h3 class="border-orange"><i class="fa fa-desktop"></i> Portofolio Desktop</h3>
                         <div class="kol-4">
                             <div class="profile">
                             <img src="img/parkir.png" align="center">
@@ -356,17 +354,3 @@
     </div>
 </body>
 </html>
-<script>
-        function getLocation() {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(showPosition);
-            } else { 
-                alert("Browser tidak mendukung Geolokasi");
-            }
-        }
-        
-        function showPosition(position) {
-            alert("Latitude: " + position.coords.latitude + 
-            "\nLongitude: " + position.coords.longitude);
-        }
-</script>
